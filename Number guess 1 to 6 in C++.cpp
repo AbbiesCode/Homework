@@ -7,7 +7,7 @@ int randomInteger()
 	int guess{};
 	std::cin >> guess;
 	
-	// Computer generates random number between 1-6 (found online)
+	// Computer generates random number between 1-6
 	srand((unsigned)time(NULL));
 	int random = (1 + rand() % 6);
 	
